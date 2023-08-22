@@ -105,3 +105,47 @@ body {
     font-size: 1.4rem;
     text-align: center;
   }
+
+  /* Styles for the quiz container */
+.quiz-container {
+    background-color: rgb(228, 211, 134);
+    background-image: linear-gradient(315deg, rgb(228, 211, 134) 0%, #f5f7fa 100%);
+    border-radius: 15px 50px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    max-width: 95vw;
+    overflow: hidden;
+  }
+  
+  /* Styles for the quiz content area */
+  .quiz-top {
+    padding: 1rem 3rem;
+  }
+  
+  /* Styles for the quiz question display */
+  h2 {
+    padding: 1.3rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Styles for the unordered list (answer choices) */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styles for each list item (answer choice) */
+  ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  /* Styles for the radio buttons */
+  #a,
+  #b,
+  #c,
+  #d {
+    accent-color: brown;
+    cursor: pointer;
+  }
