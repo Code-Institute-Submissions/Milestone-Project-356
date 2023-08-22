@@ -52,7 +52,7 @@ const shuffleArray = (array) => {
   
     // If it's the first question, set the initial time and start the timer
     if (currentQuiz === 0) {
-      timeLeft = 60; // Time left for quiz (in seconds).
+      timeLeft = 90; // Time left for quiz (in seconds).
       updateTimerDisplay();
       startTimer();
     }
@@ -64,7 +64,7 @@ const updateTimerDisplay = () => {
     const seconds = timeLeft % 60;
    
     // Check if time is 10 seconds or less, and apply red color if true
-    if (timeLeft <= 10) {
+    if (timeLeft <= 30) {
       timerElement.style.color = "red"; // Change the color to red
     } else {
       timerElement.style.color = "black"; // Change the color back to black 
