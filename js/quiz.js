@@ -14,7 +14,7 @@ let currentQuiz = 0;
 let score = 0;
 let timeLeft = 0;
 
-// Function to shuffle the order of elements in an array
+// Function to shuffle the order of elements in the array
 const shuffleArray = (array) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -56,4 +56,18 @@ const shuffleArray = (array) => {
       updateTimerDisplay();
       startTimer();
     }
+  };
+
+  // Function to update the timer display with the remaining time
+const updateTimerDisplay = () => {
+    const minutes = Math.floor(timeLeft / 60);
+    const seconds = timeLeft % 60;
+   
+    // Check if time is 10 seconds or less, and apply red color if true
+    if (timeLeft <= 10) {
+      timerElement.style.color = "red"; // Change the color to red
+    } else {
+      timerElement.style.color = "black"; // Change the color back to black 
+    }
+    timerElement.innerText = `Time Left: ${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
