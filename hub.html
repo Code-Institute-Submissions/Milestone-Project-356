@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <title>Travel Games</title>
+  </head>
+
+  <body>
+
+    <!-- Header section -->
+    <div class="home-header">
+      <h1>Travel Hub.</h1>
+      <p>"Test your global savvy! Take our travel quiz and unlock the secrets of the world."</p>
+    </div>
+
+    <!-- Modal for quiz rules -->
+    <div id="rulesModal" class="modal">
+      <div class="modal-content">
+        <span class="close">""</span>
+
+        <!-- Quiz rules content -->
+        <h2>Quiz Rules</h2>
+        <ol>
+          <li>You have 1 minute to answer 15 questions!</li>
+          <br>
+          <li>Select an answer and click "Next" to progress onto the next question.</li>
+          <br>
+          <li>At the end of the quiz or when the time runs out you will be displayed with your final
+            score out of 15 and you will have the option to play again.</li>
+        </ol>
+
+        <!-- Button to start the quiz -->
+        <button id="startQuizBtn">
+          Start Quiz!!
+        </button>
+      </div>
+    </div>
+
+    <!-- Button to open the quiz rules modal -->
+    <button id="openModalBtn">View Quiz Rules</button>
+
+    <!-- External JavaScript file for modal functionality -->
+    <script src="js/modal.js"></script>
+  </body>
+  
+</html>
