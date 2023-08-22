@@ -71,3 +71,23 @@ const updateTimerDisplay = () => {
     }
     timerElement.innerText = `Time Left: ${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
+
+  // Function to start the countdown timer
+const startTimer = () => {
+    timerInterval = setInterval(() => {
+      timeLeft--;
+      updateTimerDisplay();
+      if (timeLeft <= 0) {
+        // Time's up, end the quiz
+        clearInterval(timerInterval);
+        endQuiz();
+      }
+    }, 1000); // Timer update interval set to 1 second (1000 ms).
+  };
+  
+  // Function to display the final score and end of the quiz
+  const endQuiz = () => {
+    quiz.innerHTML = ` <h2>You answered ${score}/${quizData.length} questions correctly</h2> 
+            <button onclick="history.go(0)">Play Again</button>
+            <button><a href="index.html" style="color: white; text-decoration: none;">Return to Home</a></button> `;
+  };
