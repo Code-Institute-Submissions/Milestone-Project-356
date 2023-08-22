@@ -1,5 +1,5 @@
 /* Import the Montserrat font from Google Fonts with two weights: 200 (Extra Light) and 400 (Regular) */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"); 
 
 /* Apply box-sizing property to all elements to include padding and borders in element sizing */
 * {

@@ -72,6 +72,8 @@ const updateTimerDisplay = () => {
     timerElement.innerText = `Time Left: ${minutes}:${seconds.toString().padStart(2, "0")}`;
   };
 
+  let timerInterval;
+
   // Function to start the countdown timer
 const startTimer = () => {
     timerInterval = setInterval(() => {
