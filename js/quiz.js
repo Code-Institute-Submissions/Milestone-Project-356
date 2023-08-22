@@ -91,3 +91,27 @@ const startTimer = () => {
             <button onclick="history.go(0)">Play Again</button>
             <button><a href="index.html" style="color: white; text-decoration: none;">Return to Home</a></button> `;
   };
+
+  // Shuffle the quiz questions before starting the quiz
+shuffleArray(quizData);
+
+// Load the first question and start the quiz
+loadQuiz();
+
+// Add event listener to the submit button to handle user answers
+submitButton.addEventListener("click", () => {
+  const answer = getSelected();
+  if (answer) {
+    // Check if the selected answer is correct and update the score
+    if (answer === quizData[currentQuiz].correct) score++;
+    // Move to the next question if available, otherwise end the quiz
+    currentQuiz++;
+    if (currentQuiz < quizData.length) loadQuiz();
+    else {
+      // End of quiz, display final score and option to play again
+      quiz.innerHTML = ` <h2>You answered ${score}/${quizData.length} questions correctly</h2> 
+          <button onclick="history.go(0)">Play Again</button>
+          <button><a href="hub.html" style="color: white; text-decoration: none;">Return to Home</a></button> `;
+    }
+  }
+});
