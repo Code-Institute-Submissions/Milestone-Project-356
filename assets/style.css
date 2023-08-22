@@ -78,3 +78,30 @@ body {
     border-radius: 10px;
     text-decoration: none;
   }
+
+  /* Styles for the quiz container header */
+.quiz-container header h1 {
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Styles for anchor tag header to return home */
+  .quiz-container header h1 a {
+    color: black;
+    padding-top: 10px;
+  }
+  
+  /* Styles for the timer display */
+  #timer {
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 1.1rem;
+  }
+  
+  /* Styles for Question counter */
+  #question-counter {
+    padding-top: 1.1rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
