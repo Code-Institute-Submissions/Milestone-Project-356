@@ -89,8 +89,9 @@ const startTimer = () => {
   
   // Function to display the final score and end of the quiz
   const endQuiz = () => {
-    quiz.innerHTML = ` <h2>You answered ${score}/${quizData.length} questions correctly</h2> 
-            <button onclick="history.go(0)">Play Again</button>
+    quiz.innerHTML = ` <h2>You ran out of Time!😢</h2>
+    <h2>You answered ${score}/${quizData.length} questions correctly</h2> 
+            <button onclick="history.go(0)">Try Again?</button>
             <button><a href="index.html" style="color: white; text-decoration: none;">Return to Home</a></button> `;
   };
 
