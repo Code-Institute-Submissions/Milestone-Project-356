@@ -140,6 +140,10 @@ body {
     font-size: 1.2rem;
     margin: 1rem 0;
   }
+
+  label {
+    cursor: pointer;
+  }
   
   /* Styles for the radio buttons */
   #a,
