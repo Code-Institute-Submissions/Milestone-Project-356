@@ -81,10 +81,18 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 ### Quiz Features
 * Home button to return home and leave the quiz to access more features:
 * Countdown timer: This timer begins as soon as the user selects "Start Quiz!". It's a race against the clock to answer all 15 questions before the timer hits zero. If this happens the quiz ends and the user will be displayed will their final score.
+* Question counter: So the user can focus solely on the quiz a question counter has been added to increment from 1 - 15 everytime a question is answered.
 * Questions: The quiz contains 15 questions which are randomized everytime the user starts the quiz! These include a variety of challenging questions.
 * Answers: Here we have the choices, choose carefully as once you submit there is no going back. The user has the choice of four potential answers.
 * Next button: This button can only be selected once an answer has been chosen. 
 * Final score and play again button: Once the timer ends or the user has answered all the questions they will be displayed with a final screen which shows their score out of 15 and the option to play again!
+
+## Future Features
+
+Some additional features I would like to add in the future are as follows:
+* Maze game.
+* Tile matching game.
+As the website is set up as a Hub. The landing page acts as an area for future games to be added. 
 
 # Design and structure
 
@@ -118,4 +126,3 @@ Used to store the project code after being created in GitPod / Git.
 Used to create, edit & preview the project's code.
 * [Google Fonts](https://fonts.google.com/)
 Used to select & import the fonts to the project.
-
