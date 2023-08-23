@@ -126,3 +126,35 @@ Used to store the project code after being created in GitPod / Git.
 Used to create, edit & preview the project's code.
 * [Google Fonts](https://fonts.google.com/)
 Used to select & import the fonts to the project.
+
+# Testing 
+
+## HTML Validation
+
+[HTML Validator](https://validator.w3.org/) The HTML pages were run through a HTML Validator.
+<details><summary>Landing Page</summary><img src=""></details>
+<details><summary>Quiz Page</summary><img src=""></details>
+
+### Errors
+Errors I encountered were recitified and noted in commit messages. Issue I had were:
+* Using a br element within an ol element. This threw an error stating a br element cannot be a child of ol element.
+* Secondly as I did not need anything in my h2 element for the questions. As this was being filled using Javascript. The Validator threw an error saying the value was empty. 
+* Thirdly I made the error having my script src for my JS files outside of my body element, thus showing an error.
+
+### Fixes
+* The first issue was fixed by removing the br element from my ol and using CSS styling to add padding-bottom to my list items.
+* Secondly I fixed the issue by adding quotation marks just to add something in there as mentioned Javascript was being used to add the questions.
+* I fixed the third issue by adding my script src inside the body element at the bottom after all other HTML code.
+
+## CSS Validation
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/) The CSS page was run through a CSS Validator.
+<details><summary>Stylesheet</summary><img src=""></details>
+
+## JS Validation
+
+[JS Validator](https://jshint.com/) The JS pages was run through a JS Validator.
+<details><summary>modal.js</summary><img src=""></details>
+<details><summary>questions.js</summary><img src=""></details>
+<details><summary>quiz.js</summary><img src=""></details>
+
