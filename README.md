@@ -79,6 +79,7 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 * The quiz is at the heart of the Travel Hub. The quiz is fully interactive containing many features within.
 
 ### Quiz Features
+
 * Home button to return home and leave the quiz to access more features:
 * Countdown timer: This timer begins as soon as the user selects "Start Quiz!". It's a race against the clock to answer all 15 questions before the timer hits zero. If this happens the quiz ends and the user will be displayed will their final score.
 * Question counter: So the user can focus solely on the quiz a question counter has been added to increment from 1 - 15 everytime a question is answered.
@@ -118,6 +119,7 @@ I imported [Google Fonts](https://fonts.google.com/) using the [Montserrat](http
 [HTML](https://www.w3schools.com/html/html_intro.asp), [CSS](https://www.w3schools.com/Css/) and [Javacript](https://www.w3schools.com/Js/) were used to create this project. Information from w3schools is provided via the links.
 
 ### Tools
+
 * [Git](https://git-scm.com/)
 Used for version control via GitPod by using the terminal to Git and Push to GitHub.
 * [GitHub](https://github.com/)
@@ -136,12 +138,14 @@ Used to select & import the fonts to the project.
 <details><summary>Quiz Page</summary><img src=""></details>
 
 ### Errors
+
 Errors I encountered were recitified and noted in commit messages. Issue I had were:
 * Using a br element within an ol element. This threw an error stating a br element cannot be a child of ol element.
 * Secondly as I did not need anything in my h2 element for the questions. As this was being filled using Javascript. The Validator threw an error saying the value was empty. 
 * Thirdly I made the error having my script src for my JS files outside of my body element, thus showing an error.
 
 ### Fixes
+
 * The first issue was fixed by removing the br element from my ol and using CSS styling to add padding-bottom to my list items.
 * Secondly I fixed the issue by adding quotation marks just to add something in there as mentioned Javascript was being used to add the questions.
 * I fixed the third issue by adding my script src inside the body element at the bottom after all other HTML code.
@@ -152,6 +156,7 @@ Errors I encountered were recitified and noted in commit messages. Issue I had w
 <details><summary>Stylesheet</summary><img src=""></details>
 
 ### Errors
+
 I ran into no errors within my CSS file as I made sure to write quality code using:
 * Consistent naming convention
 * Organising the code into the order of the page flow.
@@ -165,3 +170,23 @@ Making sure I followed the above meant I did not need to fix any issues.
 <details><summary>questions.js</summary><img src=""></details>
 <details><summary>quiz.js</summary><img src=""></details>
 
+### Errors
+
+I ran into no issues with my modal.js file. Issues that did occur were:
+* Had an issue with my quiz.js file where the timerInterval variable was undefined.
+* Seecondly had an issue with the quizData variable being undefined in both quiz and questions.js.
+
+### Fixes
+
+* The first issue was fixed by creating a let variable containing timerInterval.
+* The second issue remains as the two files are both over 100 lines of code I wanted to keep them seperate for readability. The quiz runs smoothly with no issues and calls upon the quizData faultlessly.
+The validator returned no issues with my code other than an undefined variable.
+
+## Responsiveness
+
+The site was tested on the following devices:
+* Asus Vivobook Book Pro 16"
+* Samsung S23 Ultra
+* Samsung S20
+* Acer Chromebook 14"
+* Google Deveoloper tools. Utilizing all dimensions including the responsive option.
