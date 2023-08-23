@@ -151,6 +151,13 @@ Errors I encountered were recitified and noted in commit messages. Issue I had w
 [CSS Validator](https://jigsaw.w3.org/css-validator/) The CSS page was run through a CSS Validator.
 <details><summary>Stylesheet</summary><img src=""></details>
 
+### Errors
+I ran into no errors within my CSS file as I made sure to write quality code using:
+* Consistent naming convention
+* Organising the code into the order of the page flow.
+* Using concise and appropriate comments to outline what the code is doing and to what.
+Making sure I followed the above meant I did not need to fix any issues.
+
 ## JS Validation
 
 [JS Validator](https://jshint.com/) The JS pages was run through a JS Validator.
