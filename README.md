@@ -53,6 +53,10 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 * Experience an easy-to-understand and beginner-friendly approach to exploring the world through quizzes.
 * Engage with a user-friendly and visually supportive quiz platform that helps me gradually develop my knowledge about various travel-related topics.
 
+## User Story Testing
+
+
+
 # Features
 
 ## Hero Text and Quote
@@ -190,3 +194,14 @@ The site was tested on the following devices:
 * Samsung S20
 * Acer Chromebook 14"
 * Google Deveoloper tools. Utilizing all dimensions including the responsive option.
+
+## Deployment
+
+### GitHub Pages
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+* In the GitHub repository, navigate to the Settings tab at the top of the page.
+* In the left hand menu find and select 'Pages'.
+* From the source select Branch: main.
+* Click 'Save'.
+* A link will be displayed when published successfully which can be shared and accessed through deployments.
