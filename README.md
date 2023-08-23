@@ -14,7 +14,8 @@ To inspire all indviduals and give them an unforgettable travel/quiz insight and
 
 ## User Goals
 
-The website is aimed at those interested in quizzes and travel. (Further information will be found in User Stories).
+The website is aimed at those interested in quizzes and travel. (More information here).[User Stories](#user-stories)
+
 * Avid quizzer looking for a new quiz.
 * Avid traveller looking for a fun interactive way to broaden their knowledge and gain travel inspiration.
 * Someone completely new to the world of travel and quizzes.
@@ -29,7 +30,28 @@ I conducted alot of online research regarding what other quizzes offer and how u
 
 * Create a clean and concise quiz.
 * Website should get straight to the point.
-* The colors used should promote happiness with a sense of travel about it.
+* The colors used should promote happiness with a sense of travel.
+* Interactivety is key.
+* Keep good contrast so the quiz is easily readable.
+* Make everything accesible and easy to navigate.
+* Explain what the website is with a concise landing page.
+
+## User Stories
+
+User Story 1: As a keen traveller I want to:
+* Unearth captivating facts and insights about travel.
+* Immerse myself in a varied subjects about travel.
+* Have an engaging experience whilst travelling to new destinations.
+
+User Story 2: As an avid quizzer I want to:
+* Challenge myself with a variety of travel-related questions.
+* Learn interesting trivia and fun facts about different cultures, landmarks, and travel destinations.
+* Enjoy an interactive and visually appealing quiz interface that keeps me engaged and entertained.
+
+User Story 3: As a newcomer to both travel and quizzes, I want to:
+* Discover the wonders of travel by learning basic and intriguing facts about different places.
+* Experience an easy-to-understand and beginner-friendly approach to exploring the world through quizzes.
+* Engage with a user-friendly and visually supportive quiz platform that helps me gradually develop my knowledge about various travel-related topics.
 
 # Features
 
