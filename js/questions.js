@@ -8,7 +8,7 @@ const quizData = [
       correct: "b", // Correct answer (a, b, c, or d)
     },
     {
-      question: "Viking-founded capital of Iceland?",
+      question: "Viking capital of Iceland?",
       a: "Reykjavik",
       b: "Oslo",
       c: "Helsinki",
