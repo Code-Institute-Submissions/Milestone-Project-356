@@ -8,6 +8,17 @@ Travel Hub is more than just a website; it's a virtual destination where you can
 
 The purpose behind this project was to open the mind of the user about Travel, testing their knowledge and allowing them to learn along the way whilst being able to have a challenge.
 
+## Travel Hub Site Goals
+
+To inspire all indviduals and give them an unforgettable travel/quiz insight and experience.
+
+## User Goals
+
+The website is aimed at those interested in quizzes and travel. (Further information will be found in User Stories).
+* Avid quizzer looking for a new quiz.
+* Avid traveller looking for a fun interactive way to broaden their knowledge and gain travel inspiration.
+* Someone completely new to the world of travel and quizzes.
+
 ## Research
 
 I conducted alot of online research regarding what other quizzes offer and how user friendly they are. This included color schemes, layout and features. I made notes of what worked well and what didn't work so well.
