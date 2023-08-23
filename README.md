@@ -86,12 +86,36 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 * Next button: This button can only be selected once an answer has been chosen. 
 * Final score and play again button: Once the timer ends or the user has answered all the questions they will be displayed with a final screen which shows their score out of 15 and the option to play again!
 
-## Design and structure
+# Design and structure
+
+## Structure
+
+The site is simple and made up of a landing page and the quiz page.
+
+* Landing Page - This includes a short and snappy header telling the user what the page is. Along with a button to explain the quiz further.
+* Quiz Page - This includes the main quiz. Everything is centered in a responsive container. This page also houses the play again feature and return home feature once the quiz has concluded.
+
+### Colors
 
 * After my online research I wanted to make a clean and concise quiz. I chose to use a bright yellow as the main color for my quiz website to promote happiness and creativity. 
 * My second color choice was black and this is a big contrast to yellow and it allows the user to clearly see questions and rules regarding the main part of the site which is the quiz. 
-* Finally to to contrast the black I used white so the user can clearly see where they need to click to navigate onto the quiz and through the questions.
+* Finally to contrast the black I used white so the user can clearly see where they need to click to navigate onto the quiz and through the questions.
 
-### Structure
+### Fonts 
 
-I didn't want to website to load straight into the quiz. I wanted to create a home page(hub). Number one. To allow more features and other potential travel games to be added. Also so the user can prepare for the quiz and have an understanding how the quiz works before embarking on the quiz at their own discretion.
+I imported [Google Fonts](https://fonts.google.com/) using the [Montserrat](https://fonts.google.com/specimen/Montserrat) font. I used this for the whole site for continuity and how easy it is to read.
+
+### Languages Used
+
+[HTML](https://www.w3schools.com/html/html_intro.asp), [CSS](https://www.w3schools.com/Css/) and [Javacript](https://www.w3schools.com/Js/) were used to create this project. Information from w3schools is provided via the links.
+
+### Tools
+* [Git](https://git-scm.com/)
+Used for version control via GitPod by using the terminal to Git and Push to GitHub.
+* [GitHub](https://github.com/)
+Used to store the project code after being created in GitPod / Git.
+* [Gitpod](https://www.gitpod.io/)
+Used to create, edit & preview the project's code.
+* [Google Fonts](https://fonts.google.com/)
+Used to select & import the fonts to the project.
+
