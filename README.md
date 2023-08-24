@@ -248,8 +248,8 @@ Used to select & import the fonts to the project.
 ## HTML Validation
 
 [HTML Validator](https://validator.w3.org/) The HTML pages were run through a HTML Validator.
-<details><summary>Landing Page</summary><img src=""></details>
-<details><summary>Quiz Page</summary><img src=""></details>
+<details><summary>Landing Page</summary><img src="assets/images/home html validator.png"></details>
+<details><summary>Quiz Page</summary><img src="assets/images/quiz html validator.png"></details>
 
 ### Errors
 
@@ -267,7 +267,7 @@ Errors I encountered were recitified and noted in commit messages. Issue I had w
 ## CSS Validation
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/) The CSS page was run through a CSS Validator.
-<details><summary>Stylesheet</summary><img src=""></details>
+<details><summary>Stylesheet</summary><img src="assets/images/css validator.png"></details>
 
 ### Errors
 
@@ -280,9 +280,9 @@ Making sure I followed the above meant I did not need to fix any issues.
 ## JS Validation
 
 [JS Validator](https://jshint.com/) The JS pages was run through a JS Validator.
-<details><summary>modal.js</summary><img src=""></details>
-<details><summary>questions.js</summary><img src=""></details>
-<details><summary>quiz.js</summary><img src=""></details>
+<details><summary>modal.js</summary><img src="assets/images/modal validator.png"></details>
+<details><summary>questions.js</summary><img src="assets/images/questions validator.png"></details>
+<details><summary>quiz.js</summary><img src="assets/images/quiz validator.png"></details>
 
 ### Errors
 
