@@ -61,6 +61,10 @@ I conducted alot of online research regarding what other quizzes offer and how u
 * The modal is fully responsive and it contains the start quiz button which follows the same styling and the Quiz Rules button for continuity.
 * Once the user has read and understood the rules, the quiz will start immediately and the one minute timer will begin.
 
+<center><img src="assets/images/quiz rules button.png"></center>
+
+<img src="assets/images/modal.png">
+
 ## Main Quiz
 
 * The quiz is at the heart of the Travel Hub. The quiz is fully interactive containing many features within.
