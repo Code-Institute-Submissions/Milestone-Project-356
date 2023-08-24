@@ -55,7 +55,101 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 
 ## User Story Testing
 
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Modal | Once I click the 'Quiz Rules' button I expect to shown the rules of the quiz. | Click the 'Quiz Rules' button in the centre of the landing page. When clicked the modal opens and the user is displayed with the rules/workings of the quiz. |
 
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Start Quiz Button | When I press the Start Quiz Button I expect the quiz to begin as stated by rule 4. | When I press the Start Quiz Button I am immediately taken to the quiz where it starts. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Home Link Quiz | When I press the Home Link I expect to be taken back to the home/landing page and taken out of the quiz at anytime I expect. | When I press the Home Link I am immediately removed from the quiz and returned home. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Question Counter | As I select answers and progress through the quiz I expect the number to increment from 1 to 15. | As the user moves through the quiz selecting answers and moving onto the next question the number increments from 1 to 15. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Quiz Timer | I expect the timer to start at 1:30 as soon as the quiz starts as stated in the rules. I expect it count down in seconds and end the quiz if the timer hits 0 if the user doesn't answer all questions. | When the quiz starts the timer counts down from 1:30 in increments of 1 second. When the timer hits 0 the quiz ends. A little hidden feature is when the timer hits 30 seconds it changes to red indicating there is not much time remaining. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Question and Answers | I expect to be shown a new question and answers which can be selected. I expect only one answer to be selected at a time and I must select an answer to move onto the next question. | A new question is loaded everytime the user moves on. Only one answer can be selected at once and to move on an answer must be selected. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Quiz Next Button | I expect the next button to move me onto the next question once I have selected my answer. | Once an answer is selected the user is able to click next and move onto the next question. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
+
+| **Feature** | **Expect** | **Action/Result** | 
+| -------- | -------- | -------- |
+| Play/Try Again Buttons and Return Home Button | Once the quiz ends or I answer all the questions. I expect the quiz to show me my final score along with an option to return home or play/try the quiz again. | Once the quiz ends or the user runs out of time they are shown the same screen with slight variations. The user is shown two buttons and their score. The buttons allow them to return to the home page or immediately try the quiz again in the hopes of a better score. |
+
+<details><summary></summary>
+
+<img src="">
+
+<img src="">
+
+</details>
 
 # Features
 
@@ -205,3 +299,5 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source select Branch: main.
 * Click 'Save'.
 * A link will be displayed when published successfully which can be shared and accessed through deployments.
+
+## Credits
