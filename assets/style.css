@@ -146,6 +146,7 @@ body {
     margin: 1rem 0;
   }
 
+  /* Pointer for the answer text */
   label {
     cursor: pointer;
   }
