@@ -301,3 +301,9 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * A link will be displayed when published successfully which can be shared and accessed through deployments.
 
 ## Credits
+
+When it came to building the quiz I gained inspiration from YouTube videos with channels such as:
+* [CodingNepal](https://www.youtube.com/@CodingNepal)
+* [Codehal](https://www.youtube.com/@codehal)
+
+These sparked my interest and allowed my to build my very own quiz. I also used [w3schools](https://www.w3schools.com/js/default.asp) to help with writing an array and additional features within my quiz. I also went back over Code Institutes study material to utilize as much Javascript as I could. Using these allowed me to create features such as event listeners and my question counter and timer features.
