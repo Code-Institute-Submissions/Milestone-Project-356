@@ -120,11 +120,9 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 | -------- | -------- | -------- |
 | Modal | Once I click the 'Quiz Rules' button I expect to shown the rules of the quiz. | Click the 'Quiz Rules' button in the centre of the landing page. When clicked the modal opens and the user is displayed with the rules/workings of the quiz. |
 
-<details><summary></summary>
+<details><summary>Modal</summary>
 
-<img src="">
-
-<img src="">
+<img src="assets/images/quiz rules action.gif">
 
 </details>
 
@@ -132,13 +130,7 @@ User Story 3: As a newcomer to both travel and quizzes, I want to:
 | -------- | -------- | -------- |
 | Start Quiz Button | When I press the Start Quiz Button I expect the quiz to begin as stated by rule 4. | When I press the Start Quiz Button I am immediately taken to the quiz where it starts. |
 
-<details><summary></summary>
 
-<img src="">
-
-<img src="">
-
-</details>
 
 | **Feature** | **Expect** | **Action/Result** | 
 | -------- | -------- | -------- |
