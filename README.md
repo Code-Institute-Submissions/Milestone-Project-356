@@ -1,5 +1,7 @@
 # Welcome to Travel Hub: Test your global savvy with our Travel-Themed Quiz!
 
+<img src="assets/images/Responsive.png">
+
 ## What is Travel Hub?
 
 Travel Hub is more than just a website; it's a virtual destination where you can embark on a quest to test and expand your knowledge about various travel-related topics. Whether you're a globetrotting adventurer or someone dreaming of your next getaway, Travel Hub offers an immersive and educational experience that allows you to explore the world from the comfort of your own screen.
