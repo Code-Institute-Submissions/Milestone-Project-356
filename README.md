@@ -69,15 +69,33 @@ I conducted alot of online research regarding what other quizzes offer and how u
 
 * The quiz is at the heart of the Travel Hub. The quiz is fully interactive containing many features within.
 
+<img src="assets/images/quiz.png">
+
 ### Quiz Features
 
 * Home button to return home and leave the quiz to access more features:
-* Countdown timer: This timer begins as soon as the user selects "Start Quiz!". It's a race against the clock to answer all 15 questions before the timer hits zero. If this happens the quiz ends and the user will be displayed will their final score.
+* Countdown timer: This timer begins as soon as the user selects "Start Quiz!". It's a race against the clock to answer all 15 questions before the timer hits zero. If this happens the quiz ends and the user will be displayed will their final score. Also when the timer hits 30 seconds the timer changes color to red to indicate there is not much time left!
+
+    <details><summary>Red Timer</summary>
+
+    <img src="assets/images/timer.png">
+
+    </details>
+    <br>
 * Question counter: So the user can focus solely on the quiz a question counter has been added to increment from 1 - 15 everytime a question is answered.
 * Questions: The quiz contains 15 questions which are randomized everytime the user starts the quiz! These include a variety of challenging questions.
 * Answers: Here we have the choices, choose carefully as once you submit there is no going back. The user has the choice of four potential answers.
 * Next button: This button can only be selected once an answer has been chosen. 
+
+The above features can be seen in the image of the main quiz.
+
 * Final score and play again button: Once the timer ends or the user has answered all the questions they will be displayed with a final screen which shows their score out of 15 and the option to play again!
+
+<img src="assets/images/end screen 2.png">
+
+<img src="assets/images/end screen 1.png">
+
+As shown above the user is shown the same end screen with slight variations whether they complete the quiz or run out of time. In both instances they are given the same options to play/try again or return home whilst being shown their score out of 15.
 
 ## User Stories
 
