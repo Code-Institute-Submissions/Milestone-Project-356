@@ -42,6 +42,8 @@ I conducted alot of online research regarding what other quizzes offer and how u
 
 ## Hero Text and Quote
 
+<img src="assets/images/hero.png">
+
 * This appears on the home page.
 * It is in large black text to stand out to the user.
 * Underneath this is a quote explaining to the user what the site is and in a fun and engaging format.
